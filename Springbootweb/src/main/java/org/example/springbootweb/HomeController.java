@@ -31,6 +31,7 @@ public class HomeController {
     @RequestMapping("addAlien")
     public String addAlien(Alien alien) {
         //public String addAlien(@ModelAttribute("alien1") Alien alien) {
+        //adding 
 
         return "result";
     }
